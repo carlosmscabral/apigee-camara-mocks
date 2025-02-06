@@ -93,4 +93,4 @@ gcloud run deploy banking-app \
   OAUTH_USERINFO_ENDPOINT=https://dev.35.227.240.213.nip.io/v1/oauth20/protected,\
   OAUTH_LOGOUT_ENDPOINT=https://dev.35.227.240.213.nip.io/v1/oauth20/logout,\
   APP_BASE_URL=https://banking-app-243779034093.us-central1.run.app,\
-  SIM_SWAP_API_URL=https://dev.35.227.240.213.nip.io/camara/sim-swap/v0"
+  SIM_SWAP_API_URL=https://dev.35.227.240.213.nip.io/camara/sim-swap/v1"

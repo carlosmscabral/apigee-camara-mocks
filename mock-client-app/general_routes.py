@@ -26,7 +26,7 @@ def transfer():
     """Handles the money transfer request. Requires user to be logged in."""
     global account_balance
     if not session.get('user'):
-        return redirect(url_for('oauth_bp.login'))
+        return redirect(url_for('oauth.login'))
 
     try:
         amount = float(request.form["amount"])
